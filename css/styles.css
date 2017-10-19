@@ -2,15 +2,13 @@ body {
     margin: 0;
     padding: 0;
 }
-/** Start Header Styles **/
-.main-header {
-    margin: 0;
-    width: 100%;
+/** Start Nav Styles **/
+.main-nav {
     height: 150px;
     background: #800000;
 }
 
-.main-header:after {
+.main-nav:after {
     content: "";
     display: block;
     clear: both;
@@ -18,46 +16,29 @@ body {
 
 .logo {
     height: 150px;
-    margin: 0;
-    border: none;
 }
 
-.header-image {
+.nav-image {
     float: right;
-    height: 200px;
+    height: 150px;
     margin: 0;
     border: none;
-}
-/** End Header Styles **/
-
-/** Start Nav Styles **/
-.main-nav {
-    margin-top: 5px;
-    padding: 10px 10px 10px 0px;
-    height: 100%;
-    width: 200px;
-    border: 1px solid #800000;
-    background: #e8b90c;
-    float: left;
 }
 
 .nav-list {
-    list-style: none;
-    margin: auto 0;
     float: right;
+    list-style: none;
+    margin-top: 65px;
 }
 
 .nav-item {
-    width: 100%;
-    padding: 10px 5px 10px 10px;
-    margin: 0;
-    float: right;
+    float: left;
+    margin-right: 15px;
 }
 
 .nav-link {
-    float: right;
     text-decoration: none;
-    color: #800000;
+    color: #e8b90c;
     font-family: 'Cabin', sans-serif;
 }
 
@@ -75,7 +56,19 @@ body {
     background-image: url('../images/banyan.jpg');
     background-size: cover;
     background-position: center center;
-    margin-left: 10px;
-    float: left;
+    height: 500px;
+    margin: 5px 0px 0px 0px;
+}
+
+.hero-text {
+    text-align: center;
+    padding-top: 240px;
+    margin: auto 0;
+    color: #fff;
+    font-size: 32px;
+}
+
+.text-background {
+    background-color: rgba(0, 0, 0, .5);
 }
 /** End Hero Styles **/
