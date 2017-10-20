@@ -2,54 +2,49 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
 /** Start Nav Styles **/
 .main-nav {
     height: 150px;
     background: #800000;
 }
-
 .main-nav:after {
     content: "";
     display: block;
     clear: both;
 }
-
 .logo {
     height: 150px;
 }
-
 .nav-image {
     float: right;
     height: 150px;
     margin: 0;
     border: none;
 }
-
 .nav-list {
     float: right;
     list-style: none;
     margin-top: 65px;
 }
-
 .nav-item {
     float: left;
     margin-right: 15px;
 }
-
 .nav-link {
     text-decoration: none;
     color: #e8b90c;
     font-family: 'Cabin', sans-serif;
 }
-
 .nav-link:hover {
     color: #fff;
 }
-
 .nav-link:active {
     color: #FF0D0D;
 }
 /** End Nav Styles **/
+
 
 /** Start Hero Styles **/
 .hero-background {
@@ -57,18 +52,63 @@ body {
     background-size: cover;
     background-position: center center;
     height: 500px;
-    margin: 5px 0px 0px 0px;
+    margin: 5px;
 }
-
 .hero-text {
     text-align: center;
     padding-top: 240px;
-    margin: auto 0;
+    margin: auto;
     color: #fff;
     font-size: 32px;
 }
-
 .text-background {
     background-color: rgba(0, 0, 0, .5);
 }
 /** End Hero Styles **/
+
+
+/** Start Column Section **/
+.column-container {
+    width: 100%;
+    height: 800px;
+}
+.column-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.column {
+    width: 49%;
+    height: 49%;
+    margin: 5px;
+}
+.upper {
+    background: #e8b90c;
+}
+.lower {
+    background: #800000;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.upper-img {
+    width: 50%;
+}
+.lower-img {
+    width: 50%;
+}
+.left-img {
+    float: left;
+}
+.right-img {
+    float: right;
+}
+.hulk {
+    margin-top: 55px;
+}
+.wolverine {
+    margin-top: 49px;
+}
