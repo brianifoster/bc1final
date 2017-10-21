@@ -82,6 +82,46 @@ body {
     height: 49%;
     margin: 5px;
 }
+.heading {
+    font-family: 'Cabin', sans-serif;
+    margin: 0px;
+}
+.hulk-heading {
+    float: right;
+    margin-right: 15px;
+}
+.wolverine-heading {
+    float: right;
+    margin-right: 15px;
+}
+.panther-heading {
+    float: left;
+    margin-left: 15px;
+}
+.spider-heading {
+    float: left;
+    margin-left: 15px;
+}
+.hulk-text {
+    float: right;
+    margin-top: 100px;
+    margin-right: -30px;
+}
+.wolverine-text {
+    float: right;
+    margin-top: 100px;
+    margin-right: -100px;
+}
+.panther-text {
+    float: left;
+    margin-top: 100px;
+    margin-left: -134px;
+}
+.spider-text {
+    float: left;
+    margin-top: 100px;
+    margin-left: -84px;
+}
 .upper {
     background: #e8b90c;
 }
@@ -94,21 +134,24 @@ body {
 .right {
     float: right;
 }
-.upper-img {
-    width: 50%;
-}
-.lower-img {
-    width: 50%;
-}
-.left-img {
-    float: left;
-}
-.right-img {
-    float: right;
-}
 .hulk {
-    margin-top: 55px;
+    margin-top: 82px;
+    float: left;
+    max-width: 265px;
 }
 .wolverine {
-    margin-top: 49px;
+    margin-top: 50px;
+    float: left;
+    max-width: 265px;
 }
+.panther {
+    margin-top: 0px;
+    float: right;
+    max-width: 300px;
+}
+.spider {
+    margin-top: 10px;
+    float: right;
+    max-width: 320px;
+}
+/** End Column Section **/
