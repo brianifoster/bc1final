@@ -15,11 +15,11 @@ body {
     clear: both;
 }
 .logo {
-    height: 150px;
+    height: 100%;
 }
 .nav-image {
     float: right;
-    height: 150px;
+    height: 100%;
     margin: 0;
     border: none;
 }
@@ -138,14 +138,13 @@ body {
 
 /** Start Footer Styles **/
 .main-footer {
-    border-top: 1px solid #800000;
     background-color: #E8B90C;
-    color: #fff;
-    margin: 5px 0px 0px 0px;
-    height: 132px;
+    padding: 15px;
+    margin-top: 10px;
 }
 .footer-top {
-    width: 100%;
+    width: 276px;
+    margin: auto;
 }
 .footer-top:after {
     content: "";
@@ -154,7 +153,6 @@ body {
 }
 .footer-social {
     list-style: none;
-    text-align: center;
 }
 .social-item {
     float: left;
@@ -196,7 +194,6 @@ body {
     clear: both;
 }
 .footer-list {
-    list-style: none;
     text-align: center;
 }
 .link-item {
