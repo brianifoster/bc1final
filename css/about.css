@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/** Start Bio Styles **/
+
+.bio-container {
+    margin: 10px;
+}
+
+.bio-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bio-image {
+    width: 49%;
+    float: left;
+}
+
+.bio-text {
+    width: 49%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    float: right;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.important-text {
+    color: red;
+    text-decoration: underline;
+}
+
+/** End Bio Styles **/
+
+/** Start Info Styles **/
+
+.info-container {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #800000;
+}
+
+.info-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.info-section {
+    float: left;
+    padding: 0px 2px;
+    width: 32%;
+    height: 150px;
+    background: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.name {
+    font-family: 'Cabin', sans-serif;
+    color: #800000;
+    text-align: center;
+}
+
+.information {
+    text-align: center;
+    margin-top: -0px;
+}
+
+/** End Info Styles **/

@@ -39,6 +39,7 @@ body {
 }
 .nav-link:hover {
     color: #fff;
+    text-decoration: underline;
 }
 .nav-link:active {
     color: #FF0D0D;
