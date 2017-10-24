@@ -54,6 +54,7 @@ body {
     background-position: center center;
     height: 500px;
     margin: 5px;
+    border-radius: 100%;
 }
 .hero-text {
     text-align: center;
