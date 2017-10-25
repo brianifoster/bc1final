@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #aaaaaa;
 }
 
 
@@ -36,6 +37,7 @@ body {
     text-decoration: none;
     color: #e8b90c;
     font-family: 'Cabin', sans-serif;
+    transform: rotate(7deg);
 }
 .nav-link:hover {
     color: #fff;
@@ -43,6 +45,8 @@ body {
 }
 .nav-link:active {
     color: #FF0D0D;
+    transform: rotate(7deg);
+    
 }
 /** End Nav Styles **/
 
@@ -54,7 +58,7 @@ body {
     background-position: center center;
     height: 500px;
     margin: 5px;
-    border-radius: 100%;
+    border-radius: 20px;
 }
 .hero-text {
     text-align: center;
@@ -88,15 +92,19 @@ body {
     clear: both;
 }
 .column {
-    width: 49%;
-    height: 49%;
+    width: 48%;
+    height: 48%;
     margin: 5px;
 }
 .upper {
-    background: #e8b90c;
+    background: rgba(232, 185, 12, 0.5);
+    border: 2px solid #e8b90c;
+    border-radius: 50px;
 }
 .lower {
-    background: #e8b90c;
+    background: rgba(232, 185, 12, 0.5);
+    border: 2px solid #e8b90c;
+    border-radius: 50px;
 }
 .left {
     float: left;
@@ -104,35 +112,50 @@ body {
 .right {
     float: right;
 }
-.column-txt-left {
-    width: 50%;
+.hulk-txt {
+    width: 48%;
     float: right;
 }
-.column-txt-right {
-    width: 50%;
+.hulk {
+    max-width: 50%;
+    margin-top: 30px;
+}
+.panther-txt {
+    width: 48%;
     float: left;
+}
+.panther {
+    float: right;
+    max-width: 50%;
+    margin-top: 45px;
+}
+.wolverine-txt {
+    width: 48%;
+    float: right;
+}
+.wolverine {
+    max-width: 50%;
+}
+.spider-txt {
+    width: 48%;
+    float: left;
+}
+.spider {
+    float: right;
+    max-width: 50%;
+    margin-top: 45px;
 }
 .coltext {
     font-family: 'PT Sans Narrow', sans-serif;
     margin: 32px 15px 15px 15px;
     color: #fff;
+    text-align: justify;
 }
 .hero-txt {
     font-family: 'Cabin', sans-serif;
     font-size: 24px;
     margin-top: 0px;
-}
-.left-img {
-    float: left;
-    max-width: 40%;
-    margin-top: 45px;
-    margin-left: 15px;
-}
-.right-img {
-    float: right;
-    max-width: 40%;
-    margin-top: 45px;
-    margin-right: 15px;
+    color: #800000;
 }
 /** End Column Styles **/
 

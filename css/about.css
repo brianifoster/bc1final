@@ -18,19 +18,39 @@ body {
 .bio-image {
     width: 49%;
     float: left;
-    border-radius: 25px;
+    border-radius: 10%;
     box-shadow: 4px 2px 10px 0px;
-}
-.bio-image:hover {
-    background-image: url(../images/selfie2.jpg);
 }
 
 .bio-text {
     width: 49%;
     font-family: 'PT Sans Narrow', sans-serif;
-    float: right;
     margin-top: 0px;
     margin-right: 5px;
+    float: right;
+}
+
+.bio-text:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bio-image2 {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-top: 15px;
+    border: 2px solid #800000;
+    border-radius: 100%;
+    transform: rotate(-30deg);
+}
+
+iframe {
+    float: left;
+    margin-top: 15px;
+    width: 49%;
+    box-shadow: 2px 2px 5px 0px;
 }
 
 .important-text {
@@ -59,7 +79,7 @@ body {
     padding: 0px 2px;
     width: 32%;
     height: 150px;
-    background: #fff;
+    background: #aaaaaa;
     font-family: 'PT Sans Narrow', sans-serif;
     text-align: center;
     margin-top: 0px;
@@ -69,7 +89,6 @@ body {
     font-family: 'Cabin', sans-serif;
     color: #800000;
     text-align: center;
-    text-shadow: 0px 1px 10px;
 }
 
 .information {
