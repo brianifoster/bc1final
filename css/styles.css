@@ -37,7 +37,6 @@ body {
     text-decoration: none;
     color: #e8b90c;
     font-family: 'Cabin', sans-serif;
-    transform: rotate(7deg);
 }
 .nav-link:hover {
     color: #fff;
@@ -45,8 +44,6 @@ body {
 }
 .nav-link:active {
     color: #FF0D0D;
-    transform: rotate(7deg);
-    
 }
 /** End Nav Styles **/
 
